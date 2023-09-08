@@ -3046,8 +3046,10 @@ MonoBehaviour:
   pages:
   - {fileID: 2079103493}
   - {fileID: 780669596}
+  index: 0
   nextButton: {fileID: 777702277}
   previousButton: {fileID: 1661538835}
+  confirmTutoButton: {fileID: 0}
 --- !u!1 &369126987
 GameObject:
   m_ObjectHideFlags: 0
@@ -3382,8 +3384,10 @@ MonoBehaviour:
   - {fileID: 283986833}
   - {fileID: 307175185}
   - {fileID: 570930831}
+  index: 0
   nextButton: {fileID: 309526702}
   previousButton: {fileID: 1318346205}
+  confirmTutoButton: {fileID: 0}
 --- !u!1 &474009133
 GameObject:
   m_ObjectHideFlags: 0
@@ -3771,7 +3775,9 @@ MonoBehaviour:
   frenchIndications: {fileID: 0}
   EnglishIndications: {fileID: 0}
   frenchSliderOptions: {fileID: 0}
-  EnglishInSliderOptions: {fileID: 0}
+  EnglishSliderOptions: {fileID: 0}
+  frenchTutorialPopUp: {fileID: 0}
+  EnglishTutorialPopUp: {fileID: 0}
 --- !u!4 &534396378
 Transform:
   m_ObjectHideFlags: 0
@@ -4957,7 +4963,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &656880746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8846,8 +8852,10 @@ MonoBehaviour:
   pages:
   - {fileID: 675837964}
   - {fileID: 2029901021}
+  index: 0
   nextButton: {fileID: 140510296}
   previousButton: {fileID: 1571007765}
+  confirmTutoButton: {fileID: 0}
 --- !u!114 &1273938243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9556,7 +9564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -107.7, y: 161}
+  m_AnchoredPosition: {x: -107.700195, y: 161}
   m_SizeDelta: {x: 560, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1359181685
@@ -10181,7 +10189,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1470479899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13488,8 +13496,10 @@ MonoBehaviour:
   - {fileID: 324572518}
   - {fileID: 1224477176}
   - {fileID: 1509123505}
+  index: 0
   nextButton: {fileID: 876742130}
   previousButton: {fileID: 1330302312}
+  confirmTutoButton: {fileID: 0}
 --- !u!114 &2027230746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14375,6 +14385,7 @@ GameObject:
   - component: {fileID: 2135558778}
   - component: {fileID: 2135558777}
   - component: {fileID: 2135558776}
+  - component: {fileID: 2135558781}
   m_Layer: 0
   m_Name: AR Camera
   m_TagString: MainCamera
@@ -14491,3 +14502,36 @@ Transform:
   m_Father: {fileID: 1470479900}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2135558781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135558774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
