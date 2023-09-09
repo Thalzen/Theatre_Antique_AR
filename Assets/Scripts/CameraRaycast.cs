@@ -12,7 +12,7 @@ public class CameraRaycast : MonoBehaviour
     [SerializeField] private GameObject _infoButton;
     [SerializeField] private Camera _camera;
     [SerializeField] private AppData _appData;
-    public GameObject[] prefabArray;
+  //  public GameObject[] prefabArray;
     [SerializeField] private string[] englishPrefabNameArray;
     [SerializeField] private string[] frenchPrefabNameArray;
     [SerializeField] private GameObject[] englishdescription;
