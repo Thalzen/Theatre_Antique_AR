@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44848567, g: 0.49852657, b: 0.57564235, a: 1}
+  m_IndirectSpecularColor: {r: 0.4484859, g: 0.49852693, b: 0.5756428, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3411,9 +3411,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Cette repr\xE9sentation colossale (plus de 3 m\xE8tres de haut) de l'empereur
-    Auguste \xE9tait plac\xE9e dans la niche principale au-dessus de la porte royale
-    afin d'\xEAtre visible par tous."
+  m_text: This colossal representation (over 3 meters in height) of Emperor Augustus
+    was placed in the main niche above the royal door to be visible to everyone.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
@@ -9517,10 +9516,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Expression latine qui signifie \xAB les portes des h\xF4tes \xBB, utilis\xE9e
-    pour d\xE9signer les portes am\xE9nag\xE9es dans le front de sc\xE8ne de chaque
-    c\xF4t\xE9 de la porte centrale, dite royale. C'est par l\xE0 qu'entraient les
-    personnages de moindre importance."
+  m_text: Latin expression that means "the doors of the guests," used to refer to
+    the doors arranged in the front of the stage on each side of the central, so-called
+    royal door. It was through these doors that less important characters entered.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
@@ -14759,14 +14757,21 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Le \"balteus\" dans les th\xE9\xE2tres romains faisait r\xE9f\xE9rence
-    \xE0 la balustrade ou \xE0 la barri\xE8re de s\xE9curit\xE9 qui ceinturait l'arri\xE8re
-    de l'orchestre et le s\xE9parait des gradins.\n\nOn le retrouve aussi entre les
-    diff\xE9rents \xE9tages de si\xE8ges (maenianum) o\xF9 il mat\xE9rialisait la
-    hi\xE9rarchisation entre les classes sociales en \xE9tablissant une ligne de
-    d\xE9marcation nette.\n\nLes baltei des th\xE9\xE2tres romains ne d\xE9passaient
-    g\xE9n\xE9ralement pas un m\xE8tre de hauteur et il n'\xE9tait pas rare qu'ils
-    soient richement d\xE9cor\xE9s en fonction du th\xE9\xE2tre et de l'\xE9poque. "
+  m_text: 'The "balteus" in Roman theaters referred to the balustrade or safety barrier
+    that encircled the rear of the orchestra and separated it from the seating.
+
+    
+
+    It
+    was also found between the various tiers of seats (maenianum), where it delineated
+    the hierarchy between social classes by establishing a clear boundary.
+
+    
+
+    The
+    baltei in Roman theaters generally did not exceed one meter in height, and it
+    was not uncommon for them to be richly decorated according to the theater and
+    the time period.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
@@ -17599,17 +17604,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Issue de la mythologie gr\xE9co-romaine, cette statue repr\xE9sente un
-    satyre \xE2g\xE9 (sil\xE8ne) nu et allong\xE9 sur sa peau de panth\xE8re (pardalide).
-    Une coupe de vin devait se trouver dans sa main. Dans l'autre, une outre \xE0
-    vin perc\xE9e d'un trou permettait \xE0 l'eau de la fontaine de s'\xE9couler.
-    Une paire de sil\xE8nes, de part et d'autre du th\xE9\xE2tre , se r\xE9pondaient
-    sym\xE9triquement, mais dans une position invers\xE9e.\n\nLe sil\xE8ne \xE9tait
-    une figure r\xE9currente dans le d\xE9cor des th\xE9\xE2tres et des fontaines
-    d'\xE9poque imp\xE9riale romaine. Repr\xE9sentant du monde bacchique, le dieu
-    de la vigne, on recense surtout deux mod\xE8les : allong\xE9 avec une coupe \xE0
-    la main comme \xE0 Arles, ou ivre et assoupi, la t\xEAte reposant sur son outre
-    vid\xE9e de son contenu."
+  m_text: 'Derived from Greco-Roman mythology, this statue depicts an elderly satyr
+    (silenus) lying naked on his panther skin (pardalide). A wine cup was supposed
+    to be in his hand. In the other hand, a wine skin with a hole allowed water from
+    the fountain to flow out. A pair of sileni, on either side of the theater, symmetrically
+    mirrored each other but in an inverted position.
+
+    
+
+    The silenus was
+    a recurring figure in the decoration of theaters and fountains in the Roman imperial
+    period. Representing the Bacchic world, the god of wine, there are mainly two
+    models: reclined with a cup in hand as in Arles, or drunk and asleep, with his
+    head resting on his emptied wine skin.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
@@ -22580,20 +22587,27 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Autel d\xE9di\xE9 \xE0 Apollon de Delphes, dieu de la musique et de la
-    po\xE9sie et retrouv\xE9 en 1823. Le dieu, \xE0 demi-nu, est assis sur un tr\xF4ne
-    et appuy\xE9 sur sa lyre. On reconnait ais\xE9ment ses attributs divins, comme
-    le tr\xE9pied de l'oracle delphique, et les deux oliviers sur les c\xF4t\xE9s,
-    dont la Pythie m\xE2chait les feuilles lors de ses transes proph\xE9tiques.\n\nOn
-    pense que la t\xEAte manquante \xE9tait en r\xE9alit\xE9 amovible, permettant
-    d'interchanger les visages au gr\xE9 des empereurs r\xE9gnant. Le premier a lui
-    avoir donner ses traits \xE9tant Auguste, qui voulait placer son r\xE8gne sous
-    la protection du dieu des arts et de la beaut\xE9, signifiant la venue d'un \xE2ge
-    d'or.\n\nSur le c\xF4t\xE9 gauche, Marsyas le satyre phrygien, en attente de
-    son jugement, suspendu \xE0 un arbre par les mains, pour avoir os\xE9 d\xE9fi\xE9
-    Apollon avec sa double fl\xFBte apr\xE8s s'\xEAtre vant\xE9 d'\xEAtre le meilleur
-    musicien. Sur le c\xF4t\xE9 droit, on retrouve le bourreau de Marsyas, agenouill\xE9
-    en train d'aiguiser la lame qui servira au sacrifice."
+  m_text: 'Altar dedicated to Apollo of Delphi, the god of music and poetry, rediscovered
+    in 1823. The god, half-naked, is seated on a throne, leaning on his lyre. His
+    divine attributes are easily recognizable, such as the Delphic tripod and the
+    two olive trees on the sides, whose leaves the Pythia chewed during her prophetic
+    trances.
+
+    
+
+    It is believed that the missing head was actually removable,
+    allowing for the interchangeability of faces according to the reigning emperors.
+    The first to give it his features was Augustus, who wanted to place his reign
+    under the protection of the god of arts and beauty, signifying the arrival of
+    a golden age.
+
+    
+
+    On the left side, Marsyas the Phrygian satyr, awaiting
+    his judgment, is suspended from a tree by his hands, for daring to challenge
+    Apollo with his double flute after boasting of being the best musician. On the
+    right side, we find the executioner of Marsyas, kneeling and sharpening the blade
+    that will be used for the sacrifice.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
@@ -22929,12 +22943,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: " D'invention romaine, ce dispositif \xE9tait abaiss\xE9 au d\xE9but des
-    spectacles et relev\xE9 \xE0 la fin, afin de masquer l'estrade et les acteurs.\n\n\xC0
-    Arles, les am\xE9nagements destin\xE9s \xE0 la man\u0153uvre de ce rideau sont
-    bien visibles en dessous de la sc\xE8ne (hyposcaenium) : une fosse,\nfosse ou
-    puits recevant les m\xE2ts du rideau et espace pour la machinerie qui permettait
-    de les actionner."
+  m_text: 'Of Roman invention, this device was lowered at the beginning of the performances
+    and raised at the end to conceal the stage and the actors.
+
+    
+
+    In Arles,
+    the arrangements for operating this curtain are clearly visible beneath the stage
+    (hyposcaenium): a pit or well that housed the curtain''s poles and space for
+    the machinery that allowed them to be operated.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
@@ -32901,18 +32918,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Les basiliques dans les th\xE9\xE2tres romains (\"basilicae\" en latin)
-    n'ont pas la m\xEAme d\xE9finition que les basiliques chr\xE9tiennes que l'on
-    peut trouver plus tard dans l'histoire, n'ayant pas de fonction religieuse. Structures
-    rectangulaires avec une nef centrale flanqu\xE9e de colonnes, elles se divisaient
-    en plusieurs \xE9tages.\n\nIl s'agissait des structures adjacentes au th\xE9\xE2tre
-    lui-m\xEAme, mais distincts de celui-ci. Multifonctionnelles, elles pouvaient
-    servir soit d'espaces publics pour diverses activit\xE9s (r\xE9unions, march\xE9s\u2026),
-    soit de zones de services pour les besoins du th\xE9\xE2tre (coulisses, stockage
-    d'accessoires, de d\xE9cors\u2026). Elles facilitaient les transition entre les
-    sc\xE8nes et les actes en \xE9tant reli\xE9es \xE0 l'estrade.\n\nElles t\xE9moignent
-    de l'importance des lieux de divertissement et de rassemblement dans la soci\xE9t\xE9
-    romaine antique."
+  m_text: 'The basilicas in Roman theaters ("basilicae" in Latin) do not have the
+    same definition as the Christian basilicas that can be found later in history,
+    as they did not have a religious function. These were rectangular structures
+    with a central nave flanked by columns and divided into multiple stories.
+
+    
+
+    They
+    were adjacent structures to the theater itself but distinct from it. Multifunctional,
+    they could serve either as public spaces for various activities (meetings, markets,
+    etc.) or as service areas for the needs of the theater (backstage, storage for
+    props and scenery, etc.). They facilitated transitions between scenes and acts
+    by being connected to the stage.
+
+    
+
+    They bear witness to the significance
+    of entertainment and gathering places in ancient Roman society.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
@@ -43524,7 +43547,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1430372367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44526,17 +44549,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Petit autel d\xE9couvert dans le th\xE9\xE2tre qui, avec son pendant,
-    devait se trouver de chaque c\xF4t\xE9 de l'autel d'Apollon en bas de la sc\xE8ne.\n\nLa
-    face avant pr\xE9sente une couronne civique aux feuilles de ch\xEAne, embl\xE8me
-    des empereurs romains. Sur la gauche, un pat\xE8re (coupe plate servant aux libations,
-    sortes d'offrandes de liquides) et sur la droite, un pr\xE9f\xE9ricule (vase
-    \xE0 une anse avec un bec verseur pour les libations aux dieux).\n\nL'iconographie
-    nous rappelle donc que les th\xE9\xE2tres romains ne servaient pas seulement
-    de lieu de spectacle et de divertissement, mais repr\xE9sentaient aussi un espace
-    sacr\xE9 avec des autels et des statues, \xE0 la gloire du pouvoir imp\xE9rial.
-    Avant chaque repr\xE9sentation, se d\xE9roulaient un cort\xE8ge religieux (la
-    pompe) et des libations."
+  m_text: "\rA small altar discovered in the theater, which, along with its counterpart,
+    was likely located on each side of the altar of Apollo at the bottom of the stage.\r\n\r\nThe
+    front face features a civic crown with oak leaves, an emblem of Roman emperors.
+    On the left, there is a patella (flat bowl used for libations, a kind of offering
+    of liquids), and on the right, a perficulum (a one-handled vessel with a pouring
+    spout for libations to the gods).\r\n\r\nThe iconography reminds us that Roman
+    theaters served not only as places for entertainment and spectacle but also represented
+    a sacred space with altars and statues, in honor of imperial power. Before each
+    performance, there were religious processions (the pompa) and libations."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
@@ -48901,9 +48922,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Galerie ouverte soutenue par une colonnade et situ\xE9e au dernier \xE9tage
-    de la cavea. Elle \xE9tait le plus souvent fr\xE9quent\xE9e par les classes sociales
-    les plus basses."
+  m_text: Open gallery supported by a colonnade and located on the highest level
+    of the cavea. It was most often frequented by the lowest social classes.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
@@ -53495,12 +53515,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Expression latine qui d\xE9signe l'immense porte centrale du mur de sc\xE8ne,
-    par laquelle entrait l'acteur principal. Elle \xE9tait encadr\xE9e par deux portes
-    lat\xE9rale et richement d\xE9cor\xE9e.\n\nSouvent employ\xE9e au pluriel (valvae
-    regiae), faisant \xE9cho aux deux battants de ses portes, cette terminologie
-    fait bien un parall\xE8le entre le mur de sc\xE8ne, cens\xE9 repr\xE9sent\xE9
-    un palace, et une r\xE9sidence royale.\n"
+  m_text: "\rLatin expression that refers to the immense central door of the stage
+    wall through which the main actor entered. It was flanked by two side doors and
+    elaborately decorated.\r\n\r\nOften used in the plural form (valvae regiae),
+    echoing the two leaves of its doors, this terminology draws a parallel between
+    the stage wall, meant to represent a palace, and a royal residence."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
@@ -53967,13 +53986,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "L'acc\xE8s principal \xE0 l'orchestra se faisait par deux passages lat\xE9raux
-    couverts traversant le mur reliant les gradins au b\xE2ti encadrant la sc\xE8ne.
-    Dans les th\xE9\xE2tres grecs, ils \xE9taient \xE0 ciel ouvert.\n\nD\xE9nomm\xE9s
-    couramment aditus maximi (\xAB tr\xE8s grandes entr\xE9es \xBB), Vitruve utilisait
-    plut\xF4t le terme peu sp\xE9cialis\xE9 itinera (\xAB passage \xBB) et une inscription
-    au th\xE9\xE2tre de Theveste indique ingressus theatri (\xAB entr\xE9e du th\xE9\xE2tre
-    \xBB)."
+  m_text: "\rThe main access to the orchestra was through two covered side passages
+    crossing the wall connecting the seating to the structure framing the stage.
+    In Greek theaters, they were open-air.\r\n\r\nCommonly referred to as \"aditus
+    maximi\" (meaning \"very large entrances\"), Vitruvius instead used the less
+    specialized term \"itinera\" (meaning \"passage\"), and an inscription at the
+    theater of Theveste indicates \"ingressus theatri\" (meaning \"entrance of the
+    theater\")."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
