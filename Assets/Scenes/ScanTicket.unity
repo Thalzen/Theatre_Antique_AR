@@ -180,6 +180,7 @@ GameObject:
   - component: {fileID: 17619935}
   - component: {fileID: 17619937}
   - component: {fileID: 17619936}
+  - component: {fileID: 17619938}
   m_Layer: 5
   m_Name: Scan ticket pop Up English
   m_TagString: Untagged
@@ -228,7 +229,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6c45f0508df62274ba7a8e3f51effbd0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f190e9fab4ad54a8399cfb2bc1e188, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -246,6 +247,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17619934}
   m_CullTransparentMesh: 1
+--- !u!114 &17619938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17619934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 5, y: 5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &34190251
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,8 +1211,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Please scan the Qr code from your entry ticket.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c0c7b608498efbf4d8f288839c9b2df7, type: 2}
-  m_sharedMaterial: {fileID: -1751995518178207413, guid: c0c7b608498efbf4d8f288839c9b2df7,
+  m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
+  m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1227,7 +1243,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 17
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1966,6 +1982,7 @@ GameObject:
   - component: {fileID: 2052556012}
   - component: {fileID: 2052556015}
   - component: {fileID: 2052556014}
+  - component: {fileID: 2052556016}
   m_Layer: 5
   m_Name: Scan ticket pop Up French
   m_TagString: Untagged
@@ -2014,7 +2031,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6c45f0508df62274ba7a8e3f51effbd0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1f190e9fab4ad54a8399cfb2bc1e188, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2032,6 +2049,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2052556011}
   m_CullTransparentMesh: 1
+--- !u!114 &2052556016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052556011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 5, y: 5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &2083230782
 GameObject:
   m_ObjectHideFlags: 0
@@ -2092,8 +2124,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "veuillez scanner le Qr Code pr\xE9sent sur votre ticket."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c0c7b608498efbf4d8f288839c9b2df7, type: 2}
-  m_sharedMaterial: {fileID: -1751995518178207413, guid: c0c7b608498efbf4d8f288839c9b2df7,
+  m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
+  m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2124,7 +2156,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 17
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
