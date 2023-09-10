@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10fcf5827451ade4c8829c0bc6418a7a, type: 3}
   m_Name: App Data
   m_EditorClassIdentifier: 
-  currentLanguage: French
+  currentLanguage: English
   French: French
   English: English
   German: German
