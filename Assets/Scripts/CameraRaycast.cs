@@ -55,7 +55,7 @@ public class CameraRaycast : MonoBehaviour
 
             int x = int.Parse(hit.collider.gameObject.tag);
             currentselected = x;
-            if (_appData.currentLanguage == "French")
+            if (_appData.currentLanguage == "French" )
             {
                 
                 _cameraFocus.color = Color.white;
@@ -63,7 +63,7 @@ public class CameraRaycast : MonoBehaviour
                 _infoButton.GetComponent<Button>().interactable = true;
                 _isPointing = true;
             }
-            else if (_appData.currentLanguage == "English")
+            else if (_appData.currentLanguage == "English" )
             {
                 _cameraFocus.color = Color.white;
                 infoBarText.GetComponent<TextMeshProUGUI>().text = englishPrefabNameArray[x];
@@ -84,6 +84,7 @@ public class CameraRaycast : MonoBehaviour
             }
 
         }
+        
       
     }
 

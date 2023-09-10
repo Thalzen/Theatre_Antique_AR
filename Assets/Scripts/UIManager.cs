@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
     
     [SerializeField] private Camera _camera;
-    [SerializeField] private AudioSource _backgroundmusic;
+ //   [SerializeField] private AudioSource _backgroundmusic;
     private bool _audioIsMuted = false;
     [SerializeField] private Animator _volumeUiAnimator;
     //   [SerializeField] private Animator _zoomUiAnimator;
@@ -19,8 +20,6 @@ public class UIManager : MonoBehaviour
     private bool curtainIsOpen = false;
     [SerializeField] private GameObject curtainButton;
     
-    
-  
   
 
     public void OpenCurtain()
@@ -58,14 +57,16 @@ public class UIManager : MonoBehaviour
         {
             _volumeUiAnimator.SetBool("Mute",true);
             _audioIsMuted = true;
-            _backgroundmusic.mute = true;
-            
+            AudioListener.volume = -80f;
+            // _backgroundmusic.mute = true;
+
         }
         else
         {
             _volumeUiAnimator.SetBool("Mute",false);
             _audioIsMuted = false;
-            _backgroundmusic.mute = false;
+           // _backgroundmusic.mute = false;
+           AudioListener.volume = 1f;
         }
         
     }
@@ -77,27 +78,7 @@ public class UIManager : MonoBehaviour
     }
     
     
-    
-    // public void ZoomButton()
-    // {
-    //     if (_camera.fieldOfView >= 50)
-    //     {
-    //         _zoomUiAnimator.SetTrigger("ZoomIconAnim");
-    //         _focusCameraUiAnimator.SetBool("ZoomAnim",true);
-    //         _camera.fieldOfView = 30;
-    //         _zoonButton.GetComponent<Image>().sprite = _iconzoomminus;
-    //
-    //     }
-    //     else if (_camera.fieldOfView <50)
-    //     {
-    //         _zoomUiAnimator.SetTrigger("ZoomIconAnim");
-    //         _focusCameraUiAnimator.SetBool("ZoomAnim",false);
-    //         _camera.fieldOfView = 50;
-    //         _zoonButton.GetComponent<Image>().sprite = _iconzoomplus;
-    //       
-    //     }
-    //     
-    // }
+   
     
     
     
