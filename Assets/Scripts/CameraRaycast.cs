@@ -62,10 +62,26 @@ public class CameraRaycast : MonoBehaviour
                     frenchCurtainButton.SetActive(false);
                     englishCurtainButton.SetActive(false);
                 }
-                _cameraFocus.color = Color.white;
-                infoBarText.GetComponent<TextMeshProUGUI>().text = frenchPrefabNameArray[x];
-                _infoButton.GetComponent<Button>().interactable = true;
-                _isPointing = true;
+
+
+                if (hit.collider.CompareTag("50") == false)
+                {
+                    _cameraFocus.color = Color.white;
+                    infoBarText.GetComponent<TextMeshProUGUI>().text = frenchPrefabNameArray[x];
+                    _infoButton.GetComponent<Button>().interactable = true;
+                    _isPointing = true;
+                }
+                else
+                {
+                    _cameraFocus.color = Color.gray;
+                    infoBarText.GetComponent<TextMeshProUGUI>().text  = "";
+                    _isPointing = false;
+                    if (_isSelected == false)
+                    { 
+                        _infoButton.GetComponent<Button>().interactable = false;
+                    } 
+                }
+               
             }
             else if (_appData.currentLanguage == "English" )
             {
@@ -74,10 +90,25 @@ public class CameraRaycast : MonoBehaviour
                     frenchCurtainButton.SetActive(false);
                     englishCurtainButton.SetActive(false);
                 }
-                _cameraFocus.color = Color.white;
-                infoBarText.GetComponent<TextMeshProUGUI>().text = englishPrefabNameArray[x];
-                _infoButton.GetComponent<Button>().interactable = true;
-                _isPointing = true;
+
+
+                if (hit.collider.CompareTag("50") == false)
+                {
+                    _cameraFocus.color = Color.white;
+                    infoBarText.GetComponent<TextMeshProUGUI>().text = englishPrefabNameArray[x];
+                    _infoButton.GetComponent<Button>().interactable = true;
+                    _isPointing = true; 
+                }
+                else
+                {
+                    _cameraFocus.color = Color.gray;
+                    infoBarText.GetComponent<TextMeshProUGUI>().text  = "";
+                    _isPointing = false;
+                    if (_isSelected == false)
+                    { 
+                        _infoButton.GetComponent<Button>().interactable = false;
+                    }
+                }
             }
         }
         else 

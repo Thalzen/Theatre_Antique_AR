@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4484859, g: 0.49852693, b: 0.5756428, a: 1}
+  m_IndirectSpecularColor: {r: 0.44848567, g: 0.49852657, b: 0.57564235, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4148,7 +4148,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 141, y: -92.99994}
+  m_AnchoredPosition: {x: 141, y: -81}
   m_SizeDelta: {x: 102.53174, y: 97.18964}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &118630940
@@ -7095,8 +7095,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -93.20362}
-  m_SizeDelta: {x: 2645.0605, y: 170.2139}
+  m_AnchoredPosition: {x: 0, y: -73.7001}
+  m_SizeDelta: {x: 2645.0605, y: 135.0826}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &197887186
 MonoBehaviour:
@@ -9632,7 +9632,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -310, y: -85}
+  m_AnchoredPosition: {x: -310, y: -73}
   m_SizeDelta: {x: 256.15063, y: 243.2153}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &295451404
@@ -14760,13 +14760,13 @@ MonoBehaviour:
   m_text: 'The "balteus" in Roman theaters referred to the balustrade or safety barrier
     that encircled the rear of the orchestra and separated it from the seating.
 
-    
+
 
     It
     was also found between the various tiers of seats (maenianum), where it delineated
     the hierarchy between social classes by establishing a clear boundary.
 
-    
+
 
     The
     baltei in Roman theaters generally did not exceed one meter in height, and it
@@ -17610,13 +17610,13 @@ MonoBehaviour:
     the fountain to flow out. A pair of sileni, on either side of the theater, symmetrically
     mirrored each other but in an inverted position.
 
-    
 
-    The silenus was
-    a recurring figure in the decoration of theaters and fountains in the Roman imperial
-    period. Representing the Bacchic world, the god of wine, there are mainly two
-    models: reclined with a cup in hand as in Arles, or drunk and asleep, with his
-    head resting on his emptied wine skin.'
+
+    The silenus was a recurring
+    figure in the decoration of theaters and fountains in the Roman imperial period.
+    Representing the Bacchic world, the god of wine, there are mainly two models:
+    reclined with a cup in hand as in Arles, or drunk and asleep, with his head resting
+    on his emptied wine skin.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
@@ -22593,7 +22593,7 @@ MonoBehaviour:
     two olive trees on the sides, whose leaves the Pythia chewed during her prophetic
     trances.
 
-    
+
 
     It is believed that the missing head was actually removable,
     allowing for the interchangeability of faces according to the reigning emperors.
@@ -22601,13 +22601,13 @@ MonoBehaviour:
     under the protection of the god of arts and beauty, signifying the arrival of
     a golden age.
 
-    
 
-    On the left side, Marsyas the Phrygian satyr, awaiting
-    his judgment, is suspended from a tree by his hands, for daring to challenge
-    Apollo with his double flute after boasting of being the best musician. On the
-    right side, we find the executioner of Marsyas, kneeling and sharpening the blade
-    that will be used for the sacrifice.'
+
+    On the left side, Marsyas the Phrygian satyr, awaiting his
+    judgment, is suspended from a tree by his hands, for daring to challenge Apollo
+    with his double flute after boasting of being the best musician. On the right
+    side, we find the executioner of Marsyas, kneeling and sharpening the blade that
+    will be used for the sacrifice.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
@@ -22946,10 +22946,10 @@ MonoBehaviour:
   m_text: 'Of Roman invention, this device was lowered at the beginning of the performances
     and raised at the end to conceal the stage and the actors.
 
-    
 
-    In Arles,
-    the arrangements for operating this curtain are clearly visible beneath the stage
+
+    In Arles, the
+    arrangements for operating this curtain are clearly visible beneath the stage
     (hyposcaenium): a pit or well that housed the curtain''s poles and space for
     the machinery that allowed them to be operated.'
   m_isRightToLeft: 0
@@ -32923,7 +32923,7 @@ MonoBehaviour:
     as they did not have a religious function. These were rectangular structures
     with a central nave flanked by columns and divided into multiple stories.
 
-    
+
 
     They
     were adjacent structures to the theater itself but distinct from it. Multifunctional,
@@ -32932,7 +32932,7 @@ MonoBehaviour:
     props and scenery, etc.). They facilitated transitions between scenes and acts
     by being connected to the stage.
 
-    
+
 
     They bear witness to the significance
     of entertainment and gathering places in ancient Roman society.'
@@ -45560,7 +45560,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 346, y: -93}
+  m_AnchoredPosition: {x: 346, y: -81}
   m_SizeDelta: {x: 196, y: 196}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1489603941
@@ -45939,7 +45939,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -128.07532, y: -84.99997}
+  m_AnchoredPosition: {x: -128.07532, y: -72.99997}
   m_SizeDelta: {x: 256.15063, y: 243.2153}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1498789330
@@ -48690,7 +48690,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -128.07532, y: -85}
+  m_AnchoredPosition: {x: -128.07532, y: -73}
   m_SizeDelta: {x: 256.15063, y: 243.2153}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1579946644
@@ -63545,6 +63545,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2041872529}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2053625712 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d5a404003d473c243acc8eb1fd9dd8a7,
+    type: 3}
+  m_PrefabInstance: {fileID: 983894703}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2053625713
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053625712}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9073860366320891927, guid: d5a404003d473c243acc8eb1fd9dd8a7, type: 3}
 --- !u!1 &2054765675
 GameObject:
   m_ObjectHideFlags: 0
@@ -87788,6 +87808,7 @@ GameObject:
   - component: {fileID: 4955836371459909418}
   - component: {fileID: 8053043606817963674}
   - component: {fileID: 1311201012985574933}
+  - component: {fileID: 8053043606817963675}
   m_Layer: 0
   m_Name: Orchestra
   m_TagString: 50
@@ -88388,6 +88409,7 @@ GameObject:
   - component: {fileID: 3277993375020613018}
   - component: {fileID: 7444639287444774394}
   - component: {fileID: 5495010362354401600}
+  - component: {fileID: 7444639287444774395}
   m_Layer: 0
   m_Name: Frons_Pulpiti
   m_TagString: 50
@@ -91510,6 +91532,7 @@ GameObject:
   - component: {fileID: 3813157045127254274}
   - component: {fileID: 5443639560137981201}
   - component: {fileID: 2212743978293235787}
+  - component: {fileID: 6699312667625324769}
   m_Layer: 0
   m_Name: Cavea_Media_Haut
   m_TagString: 50
@@ -91517,6 +91540,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
+--- !u!64 &6699312667625324769
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6699312667625324768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -923487817890064876, guid: 09146044da8312e4a81845dac571dfad, type: 3}
 --- !u!1 &6704279676032227243
 GameObject:
   m_ObjectHideFlags: 0
@@ -93998,6 +94035,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5855818356579871486}
   m_Mesh: {fileID: -3092015569494274966, guid: 09146044da8312e4a81845dac571dfad, type: 3}
+--- !u!64 &7444639287444774395
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5855818356579871486}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3092015569494274966, guid: 09146044da8312e4a81845dac571dfad, type: 3}
 --- !u!1 &7445324779500580807
 GameObject:
   m_ObjectHideFlags: 0
@@ -95925,6 +95976,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5645362652885897366}
+  m_Mesh: {fileID: -2110586912308501979, guid: 09146044da8312e4a81845dac571dfad, type: 3}
+--- !u!64 &8053043606817963675
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5645362652885897366}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -2110586912308501979, guid: 09146044da8312e4a81845dac571dfad, type: 3}
 --- !u!23 &8053352709145624498
 MeshRenderer:
