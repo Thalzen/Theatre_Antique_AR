@@ -57,7 +57,11 @@ public class CameraRaycast : MonoBehaviour
             currentselected = x;
             if (_appData.currentLanguage == "French" )
             {
-                
+                if (hit.collider.CompareTag("2") == false)
+                {
+                    frenchCurtainButton.SetActive(false);
+                    englishCurtainButton.SetActive(false);
+                }
                 _cameraFocus.color = Color.white;
                 infoBarText.GetComponent<TextMeshProUGUI>().text = frenchPrefabNameArray[x];
                 _infoButton.GetComponent<Button>().interactable = true;
@@ -65,17 +69,23 @@ public class CameraRaycast : MonoBehaviour
             }
             else if (_appData.currentLanguage == "English" )
             {
+                if (hit.collider.CompareTag("2") == false)
+                {
+                    frenchCurtainButton.SetActive(false);
+                    englishCurtainButton.SetActive(false);
+                }
                 _cameraFocus.color = Color.white;
                 infoBarText.GetComponent<TextMeshProUGUI>().text = englishPrefabNameArray[x];
                 _infoButton.GetComponent<Button>().interactable = true;
                 _isPointing = true;
             }
         }
-        else
+        else 
         {
-           frenchCurtainButton.SetActive(false);
-           englishCurtainButton.SetActive(false);
-            _cameraFocus.color = Color.gray;
+            
+            frenchCurtainButton.SetActive(false);
+            englishCurtainButton.SetActive(false);
+                _cameraFocus.color = Color.gray;
             infoBarText.GetComponent<TextMeshProUGUI>().text  = "";
             _isPointing = false;
             if (_isSelected == false)
