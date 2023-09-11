@@ -8,19 +8,14 @@ public class UIManager : MonoBehaviour
 {
     
     [SerializeField] private Camera _camera;
- //   [SerializeField] private AudioSource _backgroundmusic;
     private bool _audioIsMuted = false;
     [SerializeField] private Animator _volumeUiAnimator;
-    //   [SerializeField] private Animator _zoomUiAnimator;
     [SerializeField] private Animator _focusCameraUiAnimator;
-  //  [SerializeField] private GameObject _zoonButton;
-    //[SerializeField] private Sprite _iconzoomplus;
-   // [SerializeField] private Sprite _iconzoomminus;
     [SerializeField] private Animator curtainAnimator;
     private bool curtainIsOpen = false;
     [SerializeField] private GameObject curtainButton;
-    
-  
+    [SerializeField] private bool velumIsOpen = false;
+    [SerializeField] private GameObject velum;
 
     public void OpenCurtain()
     {
@@ -40,6 +35,9 @@ public class UIManager : MonoBehaviour
         }
         
     }
+    
+    
+    
 
 
 
@@ -48,6 +46,26 @@ public class UIManager : MonoBehaviour
         curtainButton.GetComponent<Button>().interactable = false;
         yield return new WaitForSeconds(1.5f);
         curtainButton.GetComponent<Button>().interactable = true;
+    }
+    
+    
+
+    
+    
+    public void OpenVelum()
+    {
+        if (velumIsOpen == false)
+        {
+            velum.GetComponent<MeshRenderer>().enabled = true;
+            velumIsOpen = true;
+        }
+        else
+        {
+            velum.GetComponent<MeshRenderer>().enabled = false;
+            velumIsOpen = false;
+            
+        }
+        
     }
     
     public void MuteButton()

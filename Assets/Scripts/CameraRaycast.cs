@@ -24,6 +24,11 @@ public class CameraRaycast : MonoBehaviour
 
     [SerializeField] private GameObject frenchCurtainButton;
     [SerializeField] private GameObject englishCurtainButton;
+    
+    [SerializeField] private GameObject frenchVelumButton;
+    [SerializeField] private GameObject englishVelumButton;
+        
+        
   
     
     public void closedescription()
@@ -52,6 +57,20 @@ public class CameraRaycast : MonoBehaviour
                 }
             }
             
+            
+            
+            if (hit.collider.CompareTag("11"))
+            {
+                if (_appData.currentLanguage == "French")
+                {
+                    frenchVelumButton.SetActive(true);
+                }
+                else if (_appData.currentLanguage == "English")
+                {
+                    englishVelumButton.SetActive(true);            
+                }
+            }
+            
 
             int x = int.Parse(hit.collider.gameObject.tag);
             currentselected = x;
@@ -61,6 +80,12 @@ public class CameraRaycast : MonoBehaviour
                 {
                     frenchCurtainButton.SetActive(false);
                     englishCurtainButton.SetActive(false);
+                }
+                
+                if (hit.collider.CompareTag("11") == false) 
+                {
+                    frenchVelumButton.SetActive(false);
+                    englishVelumButton.SetActive(false);                
                 }
 
 
@@ -90,6 +115,14 @@ public class CameraRaycast : MonoBehaviour
                     frenchCurtainButton.SetActive(false);
                     englishCurtainButton.SetActive(false);
                 }
+                
+                
+                if (hit.collider.CompareTag("11") == false) 
+                {
+                     frenchVelumButton.SetActive(false);
+                     englishVelumButton.SetActive(false);                
+                }
+
 
 
                 if (hit.collider.CompareTag("50") == false)
@@ -113,7 +146,8 @@ public class CameraRaycast : MonoBehaviour
         }
         else 
         {
-            
+            frenchVelumButton.SetActive(false);
+            englishVelumButton.SetActive(false);
             frenchCurtainButton.SetActive(false);
             englishCurtainButton.SetActive(false);
                 _cameraFocus.color = Color.gray;
