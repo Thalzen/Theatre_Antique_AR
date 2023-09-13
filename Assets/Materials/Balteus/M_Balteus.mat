@@ -10,7 +10,6 @@ Material:
   m_Name: M_Balteus
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_ValidKeywords:
-  - _METALLICSPECGLOSSMAP
   - _NORMALMAP
   m_InvalidKeywords:
   - _METALLICGLOSSMAP
@@ -25,11 +24,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 808609fd90c98f34e97e81e2c9e54c3d, type: 3}
+        m_Texture: {fileID: 2800000, guid: b49d5f7616a09944286e4c551ecd39f4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 49dada13777137d43b0699c871cb98f4, type: 3}
+        m_Texture: {fileID: 2800000, guid: eee53a38d5036c74b9835134e02bc4a1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -49,11 +48,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 808609fd90c98f34e97e81e2c9e54c3d, type: 3}
+        m_Texture: {fileID: 2800000, guid: b49d5f7616a09944286e4c551ecd39f4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 6bdd8d0ec54b0ba44972749e0e139593, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
