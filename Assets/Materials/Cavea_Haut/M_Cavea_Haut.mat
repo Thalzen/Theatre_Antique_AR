@@ -10,10 +10,8 @@ Material:
   m_Name: M_Cavea_Haut
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_ValidKeywords:
-  - _METALLICSPECGLOSSMAP
   - _NORMALMAP
   - _OCCLUSIONMAP
-  - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_InvalidKeywords:
   - _METALLICGLOSSMAP
   m_LightmapFlags: 4
@@ -27,11 +25,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 8d8fd4dbac7bafe48a92320f6ae8dff8, type: 3}
+        m_Texture: {fileID: 2800000, guid: e3bb22949a9fd00478393e472ad63556, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 6a68445481cddf843911906bad6ebb19, type: 3}
+        m_Texture: {fileID: 2800000, guid: 077da0b12bb227a429ae46ced85aa7df, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -51,15 +49,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 8d8fd4dbac7bafe48a92320f6ae8dff8, type: 3}
+        m_Texture: {fileID: 2800000, guid: e3bb22949a9fd00478393e472ad63556, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: ad9acf6b59c596c4090d1484d5f1900b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3b68feeaa8eb9aa499e0b0d95403ffa6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 32677b2d1eb46e94e996920a4e451a2e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 83dcfbb5750a06c48805e1cd9f496553, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -100,12 +98,12 @@ Material:
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
-    - _OcclusionStrength: 0.3
+    - _OcclusionStrength: 0.131
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0
-    - _SmoothnessTextureChannel: 1
+    - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
