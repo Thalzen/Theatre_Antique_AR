@@ -2295,8 +2295,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: In late 2005, a major restoration campaign begins as part of the Ancient
-    Heritage Plan. It is completed in 2009.
+  m_text: At the end of 2005, a major restoration campaign begins as part of the
+    Ancient Heritage Plan. It is completed in 2009.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
@@ -6538,11 +6538,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Beyond a demonstrative application, we opted for a playful but also educational
-    support with an absolutely necessary scientific contribution.\r\n\r\nThank the
-    following organizations and professionals (archaeologists, historians, administrative
-    and scientific staff) for their contribution, advice and hospitality:\r\n\r\n\r\nDepartmental
-    Museum of Ancient Arles:\r\n\n-Soizic TOUSSAINT - Collections Manager\r\n\n-Ali\xE9nor
-    TALLAGRAND - Conservation service\r\n"
+    support with an absolutely necessary scientific contribution.\r\n\r\nWe would
+    like to thank the following organizations and professionals (archaeologists,
+    historians, administrative and scientific staff) for their contribution, advice
+    and hospitality:\r\n\r\nDepartmental Museum of Ancient Arles:\r\n\n-Soizic TOUSSAINT
+    - Collections Manager\r\n\n-Ali\xE9nor TALLAGRAND - Conservation service\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
@@ -8348,9 +8348,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The city of Arles purchased them under the impetus of the mayor, Baron
-    de Chartrouse, allowing the resumption of work, notably leading to the discovery
-    of a second Silenus.
+  m_text: Driven by the mayor of the city, Baron de Chartrouse, Arles purchased the
+    houses built in the theater, allowing the works to continue, notably leading
+    to the discovery of a second Silenus.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
@@ -8681,7 +8681,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Clearance work: the seating, orchestra, and "Tour de Rolland" are finally
+  m_text: 'Clearance work: the stands, orchestra, and "Tour de Rolland" are finally
     brought to light'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
@@ -12592,7 +12592,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "This augmented reality application is the result of a year-end work in
+  m_text: "This augmented reality application is the result of a year-long work in
     the form of tutoring between the company AD Productions - David SEVE and a group
     of students from GRETA Provence digital pole.\r\n\r\nIn agreement with Mr. Silv\xE8re
     BASTIEN, training manager and elected to the Innovation in the City of Arles
@@ -14994,7 +14994,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Following a decision by the Church to no longer allow pagan performances
-    to take place there, the monument is demolished to be used as a quarry for construction
+    to take place there, the monument was demolished to be used as a quarry for construction
     materials for the Basilica of Saint Stephen (where Saint Trophime will be erected
     later).
   m_isRightToLeft: 0
@@ -15248,7 +15248,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -182.865}
-  m_SizeDelta: {x: 600.64, y: 365.73}
+  m_SizeDelta: {x: 600.64, y: 326.13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &871158908
 MonoBehaviour:
@@ -15284,8 +15284,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A turning point in the theater's history with the discovery, while digging
-    a well at the foot of the two columns, of the Venus of Arles. . Wrongly interpreted
+  m_text: A turning point in the theater's history was the discovery, while digging
+    a well at the foot of the two columns, of the Venus of Arles. Wrongly interpreted
     as a Diana, this discovery marked the beginning of the first research on the
     theater. Excavations and restorations followed year after year.
   m_isRightToLeft: 0
@@ -19356,7 +19356,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Heritage Service of the City of Arles:\r\n\n-C\xE9cile VAREON - Head of
     Heritage\r\n\n-C\xE9cile GASC - Project Manager Arles, City of Art and History
-    - Architecture and Heritage Animator\n\n\nArchaeologist and Historians:\r\n\r\n-Marc
+    - Architecture and Heritage Animator\n\n\nArchaeologists and Historians:\r\n\r\n-Marc
     HEIJMANS - CNRS Research Director\r\n\r\n-Alain BADIE - Archaeologist Architect,
     Research Engineer at the Research Institute on Ancient Architecture\r\n\r\n-Christophe
     COULOT - Archaeologist and architect.\r\n"
@@ -24442,7 +24442,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "In 1664, when the Sisters of Mercy succeeded the Jesuits, the building
+  m_text: "In 1664, when the Sisters of Mercy succeeded to the Jesuits, the building
     permit for their convent was issued to the sisters by the Consuls on the condition
     that the doors remain open to residents and foreigners who wanted to see the
     two columns, which were preserved as a curiosity in a courtyard considered a
@@ -24792,9 +24792,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'New excavations were carried out in the garden of Mercy (on an area corresponding
-    to a little more than half of the stage): clearing of the pulpitum, the marble
-    pavement of the orchestra, a portion of the orchestra, the discovery of the head
-    of the colossal statue of Augustus, and the altar with swans.'
+    to a little more than half of the stage): clearing the pulpitum, the marble pavement
+    of the orchestra, a portion of the orchestra, the discovery of the head of the
+    colossal statue of Augustus, and the altar with swans.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
@@ -25333,9 +25333,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "-St\xE9phanie ZUGMEYER - DPLG heritage architect and archaeologist. Engineer
     at the Research Institute on Ancient Architecture\r\n\r\n-The Association \"Les
-    Amis du Vieil Arles\"\r\n\r\n\r\nUser Interface: \r\n\r\n-Marie-Lan Nguyen (the
-    image of the \"historical\" boutton)\r\n\r\n-Beyzaa Yurtkuran (the image of the
-    \"credits\" boutton)"
+    Amis du Vieil Arles\"\r\n\r\nUser Interface: \r\n\r\n-Marie-Lan Nguyen (the image
+    of the \"historical\" boutton)\r\n\r\n-Beyzaa Yurtkuran (the image of the \"credits\"
+    boutton)\n\n\nTranslator : Am\xE9lie Meunier"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
@@ -26423,7 +26423,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The theater is constructed at the summit of the highest hill in the city,
+  m_text: The theater was constructed at the summit of the highest hill in the city,
     during the reign of Emperor Augustus. Due to its location, it overlooks the political
     and administrative areas of the lower city and is integrated into the city's
     first urban plan.
@@ -30523,7 +30523,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1873064122}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.1263398, y: 1.1263398, z: 1.1263398}
   m_ConstrainProportionsScale: 0
@@ -32751,12 +32751,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'At the location of the stage, the Jesuits established their first college
-    until 1648. At that time, only three elements remain visible: the so-called Roland
-    Tower (or Dominant Tower) to the south, the arch known as "Cordeliers" or "Mercy
-    Arch" , which is connected to the north wall, and two Corinthian columns that
-    adorned the stage wall. However, the work of destruction was so complete that
-    no one knew what these ruins represented anymore.'
+  m_text: 'At the location of the stage, the Jesuits established their first school
+    until 1648. At that time, only three elements remained visible: the so-called
+    Roland Tower (or Dominant Tower) to the south, the arch known as "Cordeliers"
+    or "Mercy Arch" , which is connected to the north wall, and two Corinthian columns
+    that adorned the stage wall. However, the work of destruction was so complete
+    that no one knew what these ruins represented anymore.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
   m_sharedMaterial: {fileID: -1751995518178207413, guid: ec8552fea15503c4b8f3b5c767ec13e0,
@@ -33072,7 +33072,7 @@ MonoBehaviour:
   m_text: "\n-Thomas VERGES (3D modeling)\n\n-Aur\xE9lien ROYER (3D modeling, archaeological
     documentation research)\n\n-S\xE9bastien MIESCH (C# language development)\n\n-Micha\xEBl
     ELIE (C# language development, unity integration)\n\n-David BERNARD (Texturing,
-    graphical interface)\n\n\noffer you a unique experience to find the ancient theater
+    graphical interface)\n\n\noffer you a unique experience to see the ancient theater
     as it was in its time."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec8552fea15503c4b8f3b5c767ec13e0, type: 2}
